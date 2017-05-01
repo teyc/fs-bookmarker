@@ -1,5 +1,7 @@
 # Created by https://www.gitignore.io/api/f#,linux,windows,macos,vim,emacs,visualstudio,visualstudiocode
 
+bookmarks.txt
+
 ### F# ###
 lib/debug
 lib/release
