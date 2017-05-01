@@ -9,6 +9,22 @@ It's written as an exercise for me to familiarise
 myself with the F# toolchain, namely VSCode, Paket and the fsproj
 format.
 
+## Usage
+
+Example of how to add a bookmark
+
+```
+fs-bookmarker.exe add <url> [tag1] [tag2] ...
+.\build\fs-bookmarker.exe add http://www.priceintelligently.com/blog/david-cancel-saas-companies-customer-first-business-growth marketing saas
+```
+
+Bookmarks are written to `bookmarks.txt` like this
+
+    ("David Cancel: Why Half of All SaaS Companies Will Go Out of Business",
+    "http://www.priceintelligently.com/blog/david-cancel-saas-companies-customer-first-business-growth",
+    [|"marketing"; "saas"|])
+
+
 ## Key learnings
 
 1. Add nuget packages using Paket instead of using VS Code
